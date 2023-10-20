@@ -8,6 +8,7 @@
   },
   "main": "index.js",
   "devDependencies": {
+    "@types/jest": "^29.5.6",
     "bun-types": "latest",
     "jest": "^29.7.0"
   },
@@ -19,5 +20,8 @@
   "license": "MIT",
   "scripts": {
     "test": "jest"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.11"
   }
 }
