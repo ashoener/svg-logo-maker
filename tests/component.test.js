@@ -7,4 +7,11 @@ describe("Component", () => {
       expect(() => component.render()).toThrow();
     });
   });
+
+  describe("renderInner", () => {
+    it("should return an empty string", () => {
+      const component = new Component();
+      expect(component.renderInner()).toEqual("");
+    });
+  });
 });
