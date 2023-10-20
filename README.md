@@ -33,7 +33,7 @@ npm link
 
 ## Usage
 
-Run the command `svg-logo` in your preferred terminal, and follow the prompts. You may also watch a video tutorial [here](#TODO).
+Run the command `svg-logo` in your preferred terminal, and follow the prompts. You may also watch a video tutorial [here](https://youtu.be/87tHOMKOYSg).
 
 ## How to Contribute
 
