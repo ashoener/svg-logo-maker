@@ -1,4 +1,4 @@
-import Text from "./lib/text";
+import CLI from "./lib/cli.js";
 
-const text = new Text(["oof"]);
-console.log(text.render());
+const cli = new CLI();
+cli.start();
