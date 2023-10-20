@@ -1,0 +1,23 @@
+{
+  "name": "svg-logo-maker",
+  "version": "1.0.0",
+  "author": "Andrew Shoener",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashoener/svg-logo-maker.git"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "bun-types": "latest",
+    "jest": "^29.7.0"
+  },
+  "bugs": {
+    "url": "https://github.com/ashoener/svg-logo-maker/issues"
+  },
+  "description": "UTA Coding Bootcamp Module 10 Challenge",
+  "homepage": "https://github.com/ashoener/svg-logo-maker#readme",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  }
+}
