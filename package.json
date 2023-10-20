@@ -22,6 +22,9 @@
   "scripts": {
     "test": "NODE_OPTIONS=--experimental-vm-modules npx jest"
   },
+  "bin": {
+    "svg-logo": "./index.js"
+  },
   "dependencies": {
     "inquirer": "^9.2.11"
   }
