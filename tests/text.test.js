@@ -1,0 +1,24 @@
+const { default: Text } = require("../lib/text");
+
+describe("Text", () => {
+  describe("render", () => {
+    it("should return an empty text element", () => {
+      const svg = new Text();
+      expect(svg.render()).toEqual(
+        `<text x="150" y="125" font-size="60" text-anchor="middle" fill="white"></text>`
+      );
+    });
+    it("should return a text element with text", () => {
+      const svg = new Text(["something"]);
+      expect(svg.render()).toEqual(
+        `<text x="150" y="125" font-size="60" text-anchor="middle" fill="white">something</text>`
+      );
+    });
+    it("should return a text element with black text", () => {
+      const svg = new Text(["something"], "black");
+      expect(svg.render()).toEqual(
+        `<text x="150" y="125" font-size="60" text-anchor="middle" fill="black">something</text>`
+      );
+    });
+  });
+});
