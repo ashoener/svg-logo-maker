@@ -1,4 +1,4 @@
-const { default: Square } = require("../lib/square");
+import Square from "../lib/square.js";
 
 describe("Triangle", () => {
   describe("render", () => {
