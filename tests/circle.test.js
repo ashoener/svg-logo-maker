@@ -1,4 +1,4 @@
-const { default: Circle } = require("../lib/circle");
+import Circle from "../lib/circle.js";
 
 describe("Circle", () => {
   describe("render", () => {

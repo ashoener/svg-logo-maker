@@ -1,4 +1,4 @@
-const { default: SVG } = require("../lib/svg");
+import SVG from "../lib/svg.js";
 
 describe("SVG", () => {
   describe("render", () => {

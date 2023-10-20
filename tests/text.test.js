@@ -1,4 +1,4 @@
-const { default: Text } = require("../lib/text");
+import Text from "../lib/text.js";
 
 describe("Text", () => {
   describe("render", () => {

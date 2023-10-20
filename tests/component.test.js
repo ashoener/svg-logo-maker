@@ -1,4 +1,4 @@
-const { default: Component } = require("../lib/component");
+import Component from "../lib/component.js";
 
 describe("Component", () => {
   describe("render", () => {

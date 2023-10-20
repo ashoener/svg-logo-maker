@@ -1,4 +1,4 @@
-const { default: Triangle } = require("../lib/triangle");
+import Triangle from "../lib/triangle.js";
 
 describe("Triangle", () => {
   describe("render", () => {
