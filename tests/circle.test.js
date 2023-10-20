@@ -8,7 +8,7 @@ describe("Circle", () => {
         `<circle cx="150" cy="100" r="80" fill="white" />`
       );
     });
-    it("should return a blue element", () => {
+    it("should return a blue circle element", () => {
       const svg = new Circle("blue");
       expect(svg.render()).toEqual(
         `<circle cx="150" cy="100" r="80" fill="blue" />`
