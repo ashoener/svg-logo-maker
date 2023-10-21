@@ -22,6 +22,7 @@ To install SVG Logo Maker, you must first clone the repository.
 
 ```bash
 git clone https://github.com/ashoener/svg-logo-maker.git
+cd svg-logo-maker
 ```
 
 Afterwards, run the following commands:
@@ -41,7 +42,11 @@ If you would like to contribute, create a pull request. Be sure to include infor
 
 ## Tests
 
-Currently, there are no tests included with this project. They may be created in the future.
+To run the tests, first follow the installation instructions. Run the following command to run the tests:
+
+```bash
+npm run test
+```
 
 ## Questions
 
